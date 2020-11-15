@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function(){
-  document.getElementById("cocotte").src = "/static/images/illustration/cocottes/r"+Math.floor(Math.random() * Math.floor(6))+".png";
+  document.getElementById("cocotte").src = "./static/images/illustration/cocottes/r"+Math.floor(Math.random() * Math.floor(6))+".png";
   var letters = document.getElementsByClassName("letter");
   var i;
   maxindex=0;
