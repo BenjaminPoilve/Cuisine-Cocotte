@@ -21,7 +21,7 @@
   margin-bottom: 0 !important;
 }
 body{
-    padding-top: 20vh;
+    padding-top: 10vh;
     padding-left: 8vw;
     padding-right: 8vw;
     max-width:1200px;
@@ -45,6 +45,8 @@ html{
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
 }
+
+
 .line {
   display: -webkit-box;
   display: -moz-box;
@@ -119,7 +121,7 @@ p{
     background-position: center;
 }
 
-@media all and (min-width: 1000px) {
+@media all and (min-width: 1200px) {
     .B0 {
       display: none;
     }
@@ -153,9 +155,18 @@ p{
     .B9 > h1,.B9 > h2,.B9 > h3,.B9 > h4,.B9 > h5 {
         text-align: center!important;
     }
+    .letter {
+      transform: scale(1.5, 1.5);
+    }
+    .letter:hover {
+      transform: scale(1.55, 1.55);
+    }
+    .letter_line {
+      margin-top: 10vh;
+    }
 }
 
-@media all and (min-width: 800px) and (max-width: 1000px) {
+@media all and (min-width: 700px) and (max-width: 1200px) {
     .M0 {
       display: none;
     }
@@ -189,9 +200,18 @@ p{
     .M9 >h1,.M9 >h2,.M9 >h3,.M9 >h4,.M9 >h5 {
         text-align: center!important;
     }
+    .letter {
+      transform: scale(1.3, 1.3);
+    }
+    .letter:hover {
+      transform: scale(1.35, 1.35);
+    }
+    .letter_line {
+      margin-top: 5vh;
+    }
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 700px) {
     .S0 {
       display: none;
     }
