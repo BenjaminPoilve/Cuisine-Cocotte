@@ -26,13 +26,13 @@ body{
     padding-right: 8vw;
     max-width:1200px;
     margin: auto;
-    background-image: url('/static/images/back.png');
+    background-image: url('../images/back.png');
     font-family: customFont;
     overflow-x: hidden;
 }
 
 #clipped-title {
-	background: url('/static/images/texture.jpg') no-repeat center center;
+	background: url('../images/texture.jpg') no-repeat center center;
 	background-size: cover;
 	color: #fff;
 	-webkit-text-fill-color: transparent;
@@ -95,7 +95,9 @@ img {
 
 img:hover{
   opacity: 1;
-  transform: scale(1.01, 1.01);
+  transition-timing-function: ease;
+    transition: 0.2s;
+  transform: scale(1.05, 1.05);
 }
 
 video {
