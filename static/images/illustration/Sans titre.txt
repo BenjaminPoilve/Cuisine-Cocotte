@@ -1,0 +1,1 @@
+convert cocotte.png -fuzz 20% -transparent white result.png
