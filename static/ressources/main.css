@@ -28,7 +28,14 @@ body{
     margin: auto;
     background-image: url('../images/back.png');
     font-family: customFont;
+    max-width: 100%;
     overflow-x: hidden;
+}
+
+html{
+  max-width: 100%;
+  overflow-x: hidden;
+
 }
 
 #clipped-title {
@@ -148,7 +155,7 @@ p{
     }
 }
 
-@media all and (min-width: 600px) and (max-width: 1000px) {
+@media all and (min-width: 800px) and (max-width: 1000px) {
     .M0 {
       display: none;
     }
@@ -184,7 +191,7 @@ p{
     }
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 800px) {
     .S0 {
       display: none;
     }
@@ -217,6 +224,13 @@ p{
     }
     .S9 > h1,.S9 > h2,.S9 > h3,.S9 > h4,.S9 > h5 {
         text-align: center!important;
+    }
+    body{
+      font-size:0.7em!important;
+    }
+    .inline_image{
+      height: 80px!important;
+      width: 80px!important;
     }
 }
 
