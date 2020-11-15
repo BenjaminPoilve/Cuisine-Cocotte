@@ -1,1 +1,3 @@
 convert cocotte.png -fuzz 20% -transparent white result.png
+
+use https://tinypng.com/ to make image smaller while preserving transparency !
