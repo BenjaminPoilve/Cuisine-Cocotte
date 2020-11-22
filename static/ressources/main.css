@@ -46,6 +46,12 @@ html{
 	-webkit-background-clip: text;
 }
 
+.timbre{
+  position: absolute!important;
+  right: 10vw;
+  max-width: 20vw;
+  top: 20px;
+}
 
 .line {
   display: -webkit-box;
